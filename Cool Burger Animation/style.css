@@ -1,0 +1,265 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+
+body {
+    background-color: black;
+}
+
+.container {
+    border: 2px solid white;
+    height: 500px;
+    width: 500px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    cursor: pointer;
+    box-shadow:
+    0 0 10px 1px rgb(255, 255, 255), 
+    0 0 10px 1px rgb(255, 255, 255), 
+    0 0 10px 1px rgb(255, 255, 255); 
+}
+
+.burger {
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 25% 0% 25% 0%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    box-shadow:
+    0 0 3px 1px rgb(255, 255, 255), 
+    0 0 3px 1px rgb(255, 255, 255), 
+    0 0 4px 1px rgb(255, 255, 255); 
+    
+}
+
+.burgerOne {
+    animation-name: toggleOneOff;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.burgerOneOn {
+    animation-name: toggleOneOn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.burgerTwo {
+    animation-name: toggleTwoOff;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+.burgerTwoOn {
+    animation-name: toggleTwoOn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.burgerThree {
+    animation-name: toggleThreeOff;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.burgerThreeOn {
+    animation-name: toggleThreeOn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.burgerRotate {
+    width: 300px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    left: 19%;
+    position: absolute;
+    top:50%;
+    box-shadow:
+    0 0 3px 1px rgb(255, 255, 255), 
+    0 0 3px 1px rgb(255, 255, 255), 
+    0 0 4px 1px rgb(255, 255, 255); 
+}
+
+.burgerFour {
+    background-color: white;
+    animation-name: rotateFourOff;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.burgerFourOn {
+    background-color: white;
+    animation-name: rotateFourOn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+.burgerFive {
+    background-color: white;
+    animation-name: rotateFiveOff;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.burgerFiveOn {
+    background-color: white;
+    animation-name: burgerFiveOn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/* START ANIMATION */
+@keyframes toggleOneOff {
+    0% {
+        top: 0%;
+        width: 300px;
+    }
+    50% {
+        top: 26%;
+        width: 300px;
+    }
+    100% {
+        width: 0px;
+        top: 26%;
+    }
+}
+
+@keyframes toggleOneOn {
+    0% {
+        width: 0px;
+        top: 26%;
+    }
+    50% {
+        top: 26%;
+        width: 300px;
+    }
+    100% {
+        top: 0%;
+        width: 300px;
+    }
+}
+
+@keyframes toggleTwoOff {
+    0% {
+        width: 300px;
+    }
+    50% {
+        width: 300px;
+    }
+    100% {
+        width: 0px;
+    }
+}
+
+@keyframes toggleTwoOn {
+    0% {
+        width: 0px;
+    }
+    50% {
+        width: 0px;
+    }
+    75% {
+        width: 0px;
+    }
+    100% {
+        width: 300px;
+    }
+}
+
+@keyframes toggleThreeOff {
+    0% {
+        top: 0%;
+        width: 300px;
+    }
+    50% {
+        top: -26%;
+        width: 300px;
+    }
+    100% {
+        top: -26%;
+        width: 0px;
+    }
+}
+
+@keyframes toggleThreeOn {
+    0% {
+        top: -26%;
+        width: 0px;
+    }
+    50% {
+        top: -26%;
+        width: 300px;
+    }
+    100% {
+        top: 0%;
+        width: 300px;
+    }
+}
+
+@keyframes rotateFourOff {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes rotateFiveOff {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }  
+}
+
+@keyframes rotateFourOn {
+    0% {
+        transform: rotate(45deg);
+        width: 300px;
+    }
+    50% {
+        transform: rotate(45deg);
+        width: 300px;
+    }
+    100% {
+        transform: rotate(0deg);
+        width: 300px;
+    }  
+}
+
+@keyframes burgerFiveOn {
+    0% {
+        transform: rotate(-45deg);
+        width: 300px;
+    }
+    50% {
+        transform: rotate(-45deg);
+        width: 300px;
+    }
+    100% {
+        transform: rotate(0deg);
+        width: 300px;
+    }  
+}
