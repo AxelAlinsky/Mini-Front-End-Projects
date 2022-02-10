@@ -12,4 +12,6 @@ Vist the CodePen project [HERE](https://codepen.io/AxelAlinsky/pen/VwrPYLv)
 ## Live Registration Validation
 Probably one of my best work so far!
 
+Vist the CodePen project [HERE](https://codepen.io/AxelAlinsky/pen/VwrbBmX)
+
 <img alt="Live Registration Form Validation" src="https://media.giphy.com/media/qBWQhPneEpgQI4T2Gy/giphy.gif" width="900px">
