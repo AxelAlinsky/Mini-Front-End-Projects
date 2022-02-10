@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=IBM+Plex+Sans+Thai+Looped:wght@200&display=swap" rel="stylesheet">
+    <title>Register Form</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="welcome">
+            <img src="./img/panda.png" alt="" width="300px">
+        </div>
+
+        <div class="register">
+            <div>
+                <img src="./img/register-vector.jpg" alt="" width="350px">
+            </div>
+
+            <div>
+                <h1>Register an account</h1>
+            </div>
+            
+            <div>
+                <hr>
+                <form action="" class="register-form" id="register-form">
+
+                    <div>
+                        <span>Your Username</span>
+                        <label for="user"></label>
+                        <input type="text" name="user" id="user" autocomplete="off">
+                    </div>
+
+                    <div>
+                        <span>Your Email</span>
+                        <label for="email"></label>
+                        <input type="text" name="email" id="email" autocomplete="off">
+                    </div>
+
+                    <div>
+                        <span>Your Password</span>
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" autocomplete="off">
+                    </div>
+
+                    <div>
+                        <span>Password Confirmation</span>
+                        <label for="confirmPassword"></label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" autocomplete="off">
+                    </div>
+
+                    <button>Sign Up</button>
+
+                </form>
+            </div>
+
+            <div>
+                <p>Already have an account? <b class="member-sign-in">Sign In</b></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
