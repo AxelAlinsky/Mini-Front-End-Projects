@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+/* header */
+header {
+    position: relative;
+    margin: 0 auto;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    top: 20px;
+}
+/* header */
+
+/* Input Container */
+.inputContainer {
+    position: relative;
+    margin: auto;
+    width: 300px;
+    background-color: rgb(244, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+    border-radius: 3px;
+}
+
+.inputContainer input {
+    border: none;
+    background-color: rgb(244, 248, 248);
+    width: 80%;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.inputContainer button {
+    padding: 5px;
+    width: 30px;
+    cursor: pointer;
+    background-color: #FBAB7E;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    border-radius: 0 3px 3px 0;
+
+}
+
+.inputContainer button:hover {
+    background-color: #f59b68;
+}
+/* Input Container */
+
+
+/* To Do Container */
+.toDoContainer {
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    top: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toDoContainer div {
+    margin-top: 5px;
+    background-color: whitesmoke;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toDoContainer p {
+    margin-left: 5px;
+    padding: 6px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.toDoContainer p:hover {
+    cursor: pointer;
+}
+
+.toDoContainer span {
+    background-color: #FBAB7E;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    font-size: 8px;
+}
+
+.toDoContainer span:hover {
+    background-color: #f59b68;
+}
+/* To Do Container */
+
+.note {
+    width: 200px;
+    text-align: center;
+    top: 60px;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+}
