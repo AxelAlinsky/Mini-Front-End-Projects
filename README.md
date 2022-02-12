@@ -15,3 +15,11 @@ Probably one of my best work so far!
 Vist the CodePen project [HERE](https://codepen.io/AxelAlinsky/pen/VwrbBmX)
 
 <img alt="Live Registration Form Validation" src="https://media.giphy.com/media/qBWQhPneEpgQI4T2Gy/giphy.gif" width="900px">
+
+## To Do List
+
+So..... I dug through some of my old files on my personal laptop and discovered my very first Javascript project.
+
+Vist the CodePen project [Here](https://codepen.io/AxelAlinsky/pen/OJOgdvx)
+
+<img alt="To Do List" src="https://i.imgur.com/iUCBOd8.gif" width="900px"> 
