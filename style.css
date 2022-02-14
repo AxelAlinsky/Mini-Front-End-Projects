@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.clockContainer {
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(5, 240, 220, 0.85) 0px 0px 22px;
+}
+
+
+span {
+    color: #FFFFFF;
+    text-shadow: rgba(5, 240, 220, 0.85) 0px 0px 22px;
+}
