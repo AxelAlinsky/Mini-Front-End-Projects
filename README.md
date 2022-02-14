@@ -23,3 +23,11 @@ So..... I dug through some of my old files on my personal laptop and discovered 
 Vist the CodePen project [Here](https://codepen.io/AxelAlinsky/pen/OJOgdvx)
 
 <img alt="To Do List" src="https://i.imgur.com/iUCBOd8.gif" width="900px"> 
+
+## Cool Clock
+
+Just a simple clock.
+
+Vist the CodePen project [Here](https://codepen.io/AxelAlinsky/pen/oNoGNKo)
+
+<img alt="To Do List" src="https://i.imgur.com/iADVjlB.gif" width="900px"> 
