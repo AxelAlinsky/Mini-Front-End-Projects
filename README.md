@@ -31,3 +31,11 @@ Just a simple clock.
 Vist the CodePen project [Here](https://codepen.io/AxelAlinsky/pen/oNoGNKo)
 
 <img alt="To Do List" src="https://i.imgur.com/iADVjlB.gif" width="900px"> 
+
+## Counter
+
+Just a simple counter with a reset and decrease.
+
+Vist the CodePen [Here](https://codepen.io/AxelAlinsky/pen/zYPRgJG)
+
+<img alt="counter" src="https://i.imgur.com/OKIhbTE.gif" width="900px">
