@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+.container {
+    width: 400px;
+    height: 680px;
+    background-color: beige;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 9px 15px 4px rgba(0,0,0,0.39); 
+    box-shadow: 1px 9px 15px 4px rgba(0,0,0,0.39);
+
+}
+
+.social {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip-path: circle(15px at 93% 5%);
+    transition: .5s ease-out;
+    background-color: white;
+}
+
+.social:hover {
+    clip-path: circle(100%);
+    transition-duration: 1s;
+    background-color: rgb(219, 219, 219);
+
+}
+
+
+.social-expand > div {
+    background-color: black;
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.social-expand > div:nth-child(2){
+    transform: rotate(90deg);
+    transition: .5s;
+}
+
+
+.social:hover > .social-expand > div:nth-child(2){
+    transform: rotate(0deg);
+}
+
+
+.social-expand {
+    position: absolute;
+    right: 35px;
+    top: 26px;
+}
+
+.social-btn {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    top: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.social-btn > img {
+    width: 40px;
+
+}
+
+
+.header {
+    background-image: url(./img/female-one.webp);
+    background-size: cover;
+    background-position-y: -25px;
+    position: relative;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.name-tag {
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+
+}
+
+.bio-tag {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 70%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
