@@ -39,3 +39,12 @@ Just a simple counter with a reset and decrease.
 Vist the CodePen [Here](https://codepen.io/AxelAlinsky/pen/zYPRgJG)
 
 <img alt="counter" src="https://i.imgur.com/OKIhbTE.gif" width="900px">
+
+
+## Social card
+
+A simple social card with a pure CSS hover effect.
+
+Vist the CodePen [Here](https://codepen.io/AxelAlinsky/pen/bGYMmgx)
+
+<img alt="counter" src="img\read-me\social-card-readme.gif" width="400px">
